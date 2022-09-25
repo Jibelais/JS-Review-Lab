@@ -1,5 +1,10 @@
-/*
+//Beautiful code, you have used const and let in the appropriate way through the HW.
 
+//Really only thing I would consider is on task E-H in the functions section, I would return the value in the function and to test it, 
+//console.log(theFunctionName(with appropriate parameters))
+
+
+/*
 1. How do we assign a value to a variable? 
 With the assignment operator
 
@@ -188,6 +193,9 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 ourClass[2]
 
 //Change the value of "Github" to "Octocat"
+//you can also get the last element of an array with:
+ourClass[ourClass.length - 1] = 'Octocat'
+
 ourClass[4] = "Octocat"
 
 //Add a new element, "Cloud City" to the array
@@ -272,6 +280,7 @@ thomsCloset[1][1]
 //6.
 thomsCloset[2][2]
 //7. 
+//nice use of template literals
 console.log(`Thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][1]} and ${thomsCloset[2][1]}!` )
 //8. 
 thomsCloset[1][2] = "Footie Pajamas"
@@ -297,6 +306,8 @@ function calculateCube(num){
 }
 
 //D. isVowel
+//great error handling with toLowerCase()
+
 const vowels = ["a", "e", "i", "o", "u"]
 function isVowel(char){
   char = char.toLowerCase()
